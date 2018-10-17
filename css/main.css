@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+
+	width: 100%;
+	height:100%;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #333333;
+	background-image: url(../images/lap.jpg);
+	background-position: right;
+	
+
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	}
+
+
+.nav {
+    background-color:  #000000;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.nav a:hover {
+    background-color:  #ddd;
+    color: black;
+}
+
+
+.nav a.active {
+    background-color: #6666cc;
+    color: white;
+}
+
+	.content
+{
+	
+	text-transform: uppercase; 
+	text-align: center;
+	color: white;
+
+}
+	h2{
+		margin-top: 200px;
+		height: 100px;
+
+	}
+
+.msg{
+	position: relative;
+	 text-align: center;
+	 font-family: sans-serif;
+	 color: #fff;
+	 top:500px;
+	 padding: 30%;
+
+}
+
+	
+
+.msg h1{
+	font-size: 45px;
+	margin: 25px;
+	color: pink;
+
+}
+
+
+.btn{
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 5px;
+	padding: 7px 28px;
+	text-decoration: none;
+	border: 1px solid pink;
+	border-radius:25px;
+}
+
+.btn1{
+	background: #6666cc;
+	color: #fff;}
+
+
+	.btn2hover{ 
+		background:blue;
+		transition:.4s;
+
+
+}
+
+.chicks{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6666cc;
+    color: white;
+    text-align: center;
+    height: 10%
+}
+
+.fa-facebook {
+ color: 3b5999; 
+ 
+ padding-top: 20px;
+}
+
+.fa-instagram
+{
+color: blue;
+padding-top: 10px;
+}
+
+.fa-twitter
+{
+color: grey;
+padding-bottom: 10px;
+}
